@@ -1,0 +1,29 @@
+.header nav {
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 400;
+}
+.header button {
+  display: flex;
+  width: 48px;
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid var(--Text-secondary, #000);
+  background: var(--Text-main, #515050);
+}
+
+.header {
+  background-color: var(--color-background);
+}
+
+html[data-theme="light"] #light-mode-btn {
+  display: none;
+}
+
+html[data-theme="dark"] #dark-mode-btn {
+  display: none;
+}

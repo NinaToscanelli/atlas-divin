@@ -12,3 +12,19 @@ img,
 video {
   display: block;
 }
+
+h1 {
+  flex: 1 0 0;
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-weight: 400;
+}
+
+html {
+  --color-background: yellow;
+}
+
+html[data-theme="dark"] {
+  --color-background: blue;
+}

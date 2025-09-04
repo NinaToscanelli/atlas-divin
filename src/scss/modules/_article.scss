@@ -1,0 +1,31 @@
+article {
+  display: flex;
+  width: 955px;
+  padding: 12px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  border: 2px solid var(--Text-main, #515050);
+}
+
+article h2 {
+  align-self: stretch;
+  font-family: "Caesar Dressing";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+article h3 {
+  align-self: stretch;
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+article p {
+  align-self: stretch;
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 400;
+}
