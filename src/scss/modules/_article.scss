@@ -9,6 +9,36 @@ article {
   border: 2px solid var(--Text-main, #515050);
 }
 
+article .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+article .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+article .more p {
+  flex: 1 0 0;
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: 17.5%; /* 3.5px */
+  text-underline-position: from-font;
+}
+
 article h2 {
   align-self: stretch;
   font-family: "Caesar Dressing";

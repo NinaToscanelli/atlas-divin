@@ -28,3 +28,20 @@ html {
 html[data-theme="dark"] {
   --color-background: blue;
 }
+
+main {
+  display: flex;
+  padding: 0 80px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.title {
+  display: flex;
+  width: 955px;
+  padding-bottom: 24px;
+  align-items: flex-start;
+  margin-top: 40px;
+}
