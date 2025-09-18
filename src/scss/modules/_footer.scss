@@ -34,22 +34,23 @@
   font-weight: 400;
 }
 
-.footer.all-apps {
+.footer .all-apps {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.footer.block-copyright {
+.footer .block-copyright {
   display: flex;
   padding-top: 40px;
-  justify-content: space-between;
+  padding-bottom: 40px;
+  justify-content: center;
   align-items: center;
   align-self: stretch;
   border-top: 1px solid var(--Text-secondary, #000);
 }
 
-.footer.block-copyright p {
+.footer .block-copyright p {
   color: var(--Text-secondary, #000);
   font-family: "Bubbler One";
   font-size: 16px;
